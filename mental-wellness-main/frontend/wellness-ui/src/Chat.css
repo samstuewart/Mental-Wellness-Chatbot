@@ -1,0 +1,87 @@
+.app {
+    text-align: center;
+}
+
+.chat-container {
+    width: 80%;
+    height: 500px;
+    margin:0 10%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chat-box {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Message container */
+.message {
+    max-width: 75%;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 15px;
+    word-wrap: break-word;
+}
+
+/* User (Right-aligned, Blue Background) */
+.user {
+    align-self: flex-end;
+    background-color: #f1f1f1;
+    color: white;
+    border-top-right-radius: 0;
+    text-align: right;
+}
+
+/* Bot (Left-aligned, Gray Background) */
+.bot {
+    align-self: flex-start;
+    background-color: #f1f1f1;
+    color: black;
+    border-top-left-radius: 0;
+    text-align: left;
+}
+
+/* Loading Text */
+.loading {
+    text-align: center;
+    font-style: italic;
+    color: gray;
+}
+
+/* Input box */
+.input-box {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
